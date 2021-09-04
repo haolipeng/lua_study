@@ -19,5 +19,5 @@ print("Line 5 - c 的值为 ", c ) --1
 c = a^2
 print("Line 6 - c 的值为 ", c ) --441
 
-c = -a
-print("Line 7 - c 的值为 ", c ) --420
+c = -a 
+print("Line 7 - c 的值为 ", c ) ---21
