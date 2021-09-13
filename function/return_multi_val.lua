@@ -10,3 +10,6 @@ function maximum(a)
     return m,index
 end
 print(maximum({8,10,23,12,5}))
+
+local s,e = string.find( "hello world","llo")
+print(s,e)
