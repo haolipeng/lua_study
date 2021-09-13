@@ -8,6 +8,9 @@
             "type": "lua",
             "request": "launch",
             "name": "Debug",
+            "cwd": "${workspaceFolder}",
+            "autoPathMode": true,
+            "packagePath": "./file_io/?.lua",
         }
     ]
 }

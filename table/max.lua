@@ -1,3 +1,4 @@
+--获取table长度
 function table_leng(t)
     local leng=0
     for k, v in pairs(t) do
@@ -6,6 +7,7 @@ function table_leng(t)
     return leng;
 end
 
+--获取table中最大元素
 function table_maxn(t)
     local mn=nil;
     for k, v in pairs(t) do
@@ -18,6 +20,7 @@ function table_maxn(t)
     end
     return mn
   end
+  
   tbl = {[1] = 2, [2] = 6, [3] = 34, [26] =5}
   print("tbl 最大值：", table_maxn(tbl))
   print("tbl 长度 ", #tbl) --3

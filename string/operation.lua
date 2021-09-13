@@ -24,11 +24,11 @@ print(formatStr)
 pos = string.find( "Hello Lua user","Lua",1)
 print("str find pos:",pos)
 
---char 将整型数字转成字符并连接
+--char 将整型数字转成ASCII码字符并连接
 --byte 转换字符为整数值(可以指定某个字符，默认第一个字符)。
 print(string.char(97,98,99,100))
-print(string.byte("ABCD",4))    --可指定将某个字符转化为整数
-print(string.byte("ABCD"))      --不指定的话，默认第一个字符
+print("D convert to int:",string.byte("ABCD",4))    --可指定将某个字符转化为整数
+print("ABCD convert to int:",string.byte("ABCD"))      --不指定的话，默认第一个字符
 
 print("haolipeng len:",string.len("haolipeng"))
 
