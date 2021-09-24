@@ -11,3 +11,11 @@ if person ~= nil and person.name ~= nil then
 else
     print("bad person")
 end
+
+local a = "hello"
+local b = "hello"
+if a == b then
+    print("a == b")
+else
+    print("a != b")
+end
